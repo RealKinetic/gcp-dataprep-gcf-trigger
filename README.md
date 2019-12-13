@@ -1,7 +1,8 @@
 # gcp-dataprep-gcf-trigger
 
 Trigger a Dataprep job when a file is uploaded to Cloud Storage using a Cloud
-Function.
+Function. This works by calling the [Dataprep
+API](https://cloud.google.com/dataprep/docs/html/API-Overview_145281442).
 
 For triggering Dataprep flows using Dataflow templates directly rather than
 the Dataprep API, see
